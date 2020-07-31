@@ -1,6 +1,6 @@
 import json
 import numpy as np
-from model.tree import head_to_tree, tree_to_adj
+from tree import head_to_tree, tree_to_adj
 
 filename="/data0/zhanglonghui/HATT-Proto/data/fewrel/val_fewrel_stf.json"
 save_adj_path="/data0/zhanglonghui/HATT-Proto/data/fewrel/val_fewrel_adj.npy"
